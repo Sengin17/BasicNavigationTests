@@ -6,9 +6,9 @@ public class StringUtility {
     public static void verifyEquals(String expected, String actual) {
 
         if (actual.equals(expected)){
-            System.out.println("PASS");
+            System.out.println("PASSED");
         }else {
-            System.out.println("FAIL");
+            System.out.println("FAILED");
         }
 
 

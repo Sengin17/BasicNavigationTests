@@ -19,9 +19,9 @@ public class TitleVerification {
             Thread.sleep(2000);
 
             if(driver.getTitle().equals("Practice") && url.startsWith("http://practice.cybertekschool.com")){
-                System.out.println("PASS");
+                System.out.println("PASSED");
             }else{
-                System.out.println("FAILD");
+                System.out.println("FAILED");
             }
 
         }
