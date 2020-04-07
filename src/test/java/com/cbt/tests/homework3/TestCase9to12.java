@@ -59,7 +59,7 @@ public class TestCase9to12 {
 
             driver.quit();
 
-            driver = null;
+
         }
     }
 }
